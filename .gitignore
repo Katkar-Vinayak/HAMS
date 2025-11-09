@@ -1,0 +1,53 @@
+## Dependency directories
+node_modules/
+client/node_modules/
+server/node_modules/
+
+## Build output
+client/dist/
+dist/
+
+## Environment & secrets
+.env
+server/.env
+client/.env
+
+## Local database/data files
+server/data/hams.db
+data/
+
+## Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+## OS / Editor junk
+Thumbs.db
+.DS_Store
+.vscode/
+
+## Optional: Uncomment to ignore test snapshots if added later
+# **/__snapshots__/
+
+## Prevent committing coverage reports
+coverage/
+
+## Prevent committing temporary files
+*.tmp
+*.swp
+
+## Ignore lockfiles if you prefer reproducible installs per-environment (optional)
+# package-lock.json
+# pnpm-lock.yaml
+# yarn.lock
+
+## Generated CSV reports
+*.csv
+
+## Exclude ESLint/Type artifacts if generated later
+.cache/
+
+## Notes
+# Adjust as needed; keep .env and database out of version control.
